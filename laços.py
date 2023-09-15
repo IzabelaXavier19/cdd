@@ -6,3 +6,11 @@ for x in  range(10):
     num = float(input("Digite um número: "))
     soma = soma +num
 print(soma)
+
+n = 0
+for x in range(10):
+    num = int(input("Digite um numero: "))
+
+    if n < 0:
+        n = n + 1
+        print(n)
