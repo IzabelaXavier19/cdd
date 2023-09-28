@@ -5,7 +5,7 @@ while senha != senhav:
     if tent >=3:
         print("Senha bloqueada")
         break
-    senha = input("Senha incorreta! Qual é a senha: ")
+    senha = input(f"{tent} de 3 tentativas.\nSenha incorreta! Qual é a senha: ")
     tent += 1
 else:
     print("Senha correta")
