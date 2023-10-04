@@ -1,0 +1,10 @@
+eleitores = int(input("Informe o total de eleitores: "))
+votos_brancos = int(input("Informe a quantidade de votos BRANCOS: "))
+votos_nulos = int(input("Informe a quantidade de votos NULOS: "))
+votos_validos = int(input("Informe a quantidade de votos VÁLIDOS: "))
+
+brancos = (eleitores-votos_brancos)/eleitores
+nulos = (eleitores-votos_nulos)/eleitores
+validos = (eleitores-votos_validos)/eleitores
+
+print(f"O total de eleitores foi {eleitores}, desses votos {brancos}% BRANCOS, {nulos}% NULOS e {validos} foram VÁLIDOS")
